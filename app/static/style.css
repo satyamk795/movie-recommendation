@@ -1,17 +1,17 @@
 body {
     background-color: #141414;
     color: #ffffff;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .neon-title {
     font-size: 4rem;
-    color: #E50914;
-    text-shadow:
+    color: #f9e3e4;
+    /* text-shadow:
         0 0 5px #E50914,
         0 0 10px #E50914,
         0 0 20px #E50914,
-        0 0 40px #E50914;
+        0 0 40px #E50914; */
 }
 
 .glowing-btn {
@@ -23,7 +23,7 @@ body {
 
 .glowing-btn:hover {
     background-color: #B00610;
-    box-shadow: 0 0 20px #E50914;
+    /* box-shadow: 0 0 20px #E50914; */
     transform: scale(1.1);
 }
 
