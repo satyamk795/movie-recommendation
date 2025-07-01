@@ -1,0 +1,39 @@
+body {
+    background-color: #141414;
+    color: #ffffff;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.neon-title {
+    font-size: 4rem;
+    color: #E50914;
+    text-shadow:
+        0 0 5px #E50914,
+        0 0 10px #E50914,
+        0 0 20px #E50914,
+        0 0 40px #E50914;
+}
+
+.glowing-btn {
+    background-color: #E50914;
+    border: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.glowing-btn:hover {
+    background-color: #B00610;
+    box-shadow: 0 0 20px #E50914;
+    transform: scale(1.1);
+}
+
+.movie-item {
+    border-bottom: 1px solid #444;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+#suggestions a:hover {
+    background-color: #B00610 !important;
+    color: #fff !important;
+}
