@@ -1,39 +1,38 @@
 body {
-    background-color: #141414;
-    color: #ffffff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #dcc1c1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .neon-title {
-    font-size: 4rem;
-    color: #f9e3e4;
-    /* text-shadow:
-        0 0 5px #E50914,
-        0 0 10px #E50914,
-        0 0 20px #E50914,
-        0 0 40px #E50914; */
+    font-size: 3rem;
+    color: #0d47a1;
 }
 
 .glowing-btn {
-    background-color: #E50914;
+    background-color: #0d47a1;
     border: none;
     font-weight: bold;
     transition: all 0.3s ease;
 }
 
 .glowing-btn:hover {
-    background-color: #B00610;
-    /* box-shadow: 0 0 20px #E50914; */
+    background-color: #0a3b85;
     transform: scale(1.1);
 }
 
+h3{
+    color: #0d47a1;
+}
+
 .movie-item {
-    border-bottom: 1px solid #444;
+    background-color: #f0f4f8;
+    border-bottom: 1px solid #0d47a1;
     padding: 10px;
     font-size: 1.2rem;
 }
 
 #suggestions a:hover {
-    background-color: #B00610 !important;
+    background-color: #0d47a1 !important;
     color: #fff !important;
 }
